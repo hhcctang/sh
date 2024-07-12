@@ -2,8 +2,7 @@
 
 print_intro() {
     echo "════════════════════════════════════════════════════════════"
-    echo "                     " 风男真他妈帅,微信4561310 "                                                                        "
-    echo "     "风男提示你脚本免费开源，请勿相信任何其他人收费 "                                                      "
+    echo "                     " 开始安装 "                                                                        "
     echo "╚═══════════════════════════════════════════════════════════"
     read -p 'Will you Continue? (Y/N): ' answer
     if [[ "$answer" != "Y" && "$answer" != "y" ]]; then
@@ -206,5 +205,5 @@ docker ps
 docker update --restart=always worker-basic-eth-pred && docker update --restart=always updater-basic-eth-pred && docker update --restart=always inference-basic-eth-pred && docker update --restart=always head-basic-eth-pred
 
 echo "════════════════════════════════════════════════════════════"
-echo "║     风男提示你安装完成                      ║"
+echo "║     安装完成                      ║"
 echo "════════════════════════════════════════════════════════════"
